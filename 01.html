@@ -7,6 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="result.html">
+        <select name="food1">
+            <option value="kinbob">김밥</option>
+            <option value="ddeokbokki">떡볶이</option>
+            <option value="ramyeon">라면</option>
+        </select>
+        <br><br>
+        <select name="food2" multiple="multiple">
+            <option value="d1">콜라</option>
+            <option value="d2">사이다</option>
+            <option value="d3">쥬스</option>
+        </select>
+        <br><br>
+        <select name="food3">
+            <optgroup label="분식">
+                <option value="kinbob">김밥</option>
+                <option value="ddeokbokki">떡볶이</option>
+                <option value="ramyeon">라면</option>
+            </optgroup>
+            <optgroup label="음료">
+                <option value="d1">콜라</option>
+                <option value="d2">사이다</option>
+                <option value="d3">쥬스</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <button type="submit">전송</button>
+    </form>
 </body>
 </html>
